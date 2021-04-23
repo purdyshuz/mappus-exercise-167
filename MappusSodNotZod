@@ -117,24 +117,21 @@ public class MappusMainClass
 				if (itemSelection == 'A')
 				{
 					itemName = ITEM_NAME_PREMIUM;
-					itemPrice = ITEM_PRICE_PREMIUM;
-					//premiumCount = howMany + premiumCount;
+					itemPrice = ITEM_PRICE_PREMIUM;					
 					premiumCount++;
 				}//end of member discount assignment
 				//begin special choice
 				else if (itemSelection == 'B')
 				{
 					itemName = ITEM_NAME_SPECIAL;
-					itemPrice = ITEM_PRICE_SPECIAL;
-					//specialCount = howMany + specialCount;
+					itemPrice = ITEM_PRICE_SPECIAL;					
 					specialCount++;
 				}//end of special choice
 				//beginning of no upgrades
 				else
 				{
 					itemName = ITEM_NAME_BASIC;
-					itemPrice = ITEM_PRICE_BASIC;
-					//basicCount = howMany + basicCount;
+					itemPrice = ITEM_PRICE_BASIC;					
 					basicCount++;
 				}//end of no upgrades
 				//end if decisions item choice
